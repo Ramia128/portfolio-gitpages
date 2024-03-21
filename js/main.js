@@ -30,7 +30,7 @@ const projectImage = document.querySelector(".image-container");
 
 document.querySelector(".pl-2").addEventListener("click", function() {   
 
-    projectImage.src = "/images/library.jpg";
+    projectImage.src = "images/library.jpg";
     projectH2.innerText = "Library DB with flask";
     projectText.innerText = "Browsing SQLlite db data with flask and changing/adding data";
     projectLink.href = "https://github.com/Ramia128/RamiPYFO";
@@ -40,7 +40,7 @@ document.querySelector(".pl-2").addEventListener("click", function() {
 
 document.querySelector(".pl-1").addEventListener("click", function() {
 
-    projectImage.src = "/images/projectgdp.jpg";
+    projectImage.src = "images/projectgdp.jpg";
     projectH2.innerText = "GDP, GDP per capita and Life expectancy!";
     projectText.innerText = "Project that reads world GDP, GDP per capita and life expectancy csv data and while using pandas for datacleaning and matplotlib to check graphs";
     projectLink.href = "https://github.com/Ramia128/PYFOu2";
@@ -50,7 +50,7 @@ document.querySelector(".pl-1").addEventListener("click", function() {
 
 document.querySelector(".pl-3").addEventListener("click", function() {
 
-    projectImage.src = "/images/rövarspråk.png";
+    projectImage.src = "images/rövarspråk.png";
     projectH2.innerText = "Rövarspråk!";
     projectText.innerText = "Program that takes a string input and converting it to rövarspråk";
     projectLink.href = "https://github.com/Ramia128/Inlam/tree/main/Inl%C3%A4mning";
