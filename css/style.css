@@ -44,10 +44,10 @@ header h1 {
 .main-content {
     align-items: center;
     justify-content: center;
-    overflow: auto;
 }
 .home {
     margin: 20px 200px;
+    max-width: 1200px;
     height: 300px;
     border-radius: 15px;
     display: flex;
@@ -61,12 +61,12 @@ header h1 {
 .home article {
     padding: 20px;
     color: white;
-    width: 70%;
+    width: 915px;
     height: 315px;
     text-shadow: 1px 1px black;
     font-size: 21px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 42px;
     background-color: rgba(18, 17, 17, 0.322);
     word-wrap: break-word;
     display: flex;
@@ -84,6 +84,7 @@ header h1 {
 }
 .home img {
     margin-top: 5px;
+    margin-right: 40px;
     width: 250px;
     height: 230px;
     border-radius: 20px;
@@ -270,11 +271,13 @@ header h1 {
 }
 footer {
     margin: 0px 482px;
-    width: 915px;
-    text-align: right;
+    min-width: 915px;
+    max-width: 915px;
+    display: flex;
+    justify-content: right;
+
 }
 footer h4 {
-    float: right;
     margin-right: 50px;
     margin-top: -12px;
     color: rgb(82, 80, 80);
