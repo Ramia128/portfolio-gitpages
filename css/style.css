@@ -26,7 +26,7 @@ header {
     border-radius: 10px;
     position: sticky;
     top: 0;
-
+    z-index: 1000;
 }
 header h1 {
     float: left;
