@@ -44,6 +44,7 @@ header h1 {
 .main-content {
     align-items: center;
     justify-content: center;
+    display: inline-block;
 }
 .home {
     margin: 20px 200px;
@@ -61,7 +62,6 @@ header h1 {
 .home article {
     padding: 20px;
     color: white;
-    width: 915px;
     height: 315px;
     text-shadow: 1px 1px black;
     font-size: 21px;
@@ -71,6 +71,7 @@ header h1 {
     word-wrap: break-word;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .home p {
     padding: 10px;
