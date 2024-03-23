@@ -82,6 +82,24 @@
                 </div>
             </article>
         </section>
+        <section class="contact-form">
+            <article>
+                <h2>Reference</h2>
+                <p>provided on request</p>
+            </article>
+            <form action="https://formshow.systementor.se" method="post">
+                <div class="input-area">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" name="full-name" id="full-name" placeholder="Enter Full Name" required pattern="[A-Za-zÅÄÖåäö]+\s[A-Za-zÅÄÖåäö]+">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                </div>
+                <div class="text-area">
+                    <textarea id="message" name="message" rows="5" cols="80" placeholder="Enter your message" required></textarea>
+                    <button class="send">Send</button>
+                </div>
+            </form>
+        </section>
         <section class="social-media" id="sme">
             <div class="socials">
                 <a href="https://github.com/Ramia128" target="_blank"><i class="fa-brands fa-github"></i></a>
